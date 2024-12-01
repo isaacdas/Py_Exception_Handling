@@ -1,8 +1,6 @@
 #Temperature converter
 
 
-
-
 def temp_convert(temperature):
     new_temp = (temperature - 32) * 5/9
     print(f"\n{temperature}°F converted to celsius is: {new_temp}°C")
